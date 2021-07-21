@@ -26,6 +26,7 @@ body {
 }
 
 .menu {
+    font-size: var(--font-size);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,7 +54,6 @@ body {
 }
 
 .title {
-    display: block;
     font-size: 30px;
     font-family: var(--font-family);
     font-weight: 700;
@@ -62,4 +62,16 @@ body {
     top: 350px;
     border: 1px solid black;
     
+}
+
+@media all and (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+
+
 }
