@@ -1,0 +1,40 @@
+:root {
+    --font-size: 16px;
+    --font-family: 'Rubik', sans-serif;
+
+}
+
+html {
+    background-color: #3CDBC0;
+}
+
+.logo {
+    width: 155px;
+}
+
+.header {
+    background-color: white;
+    
+}
+
+.link{
+    font-size: var(--font-size);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    font-family: var(--font-family);
+    color: #FFF;
+}
