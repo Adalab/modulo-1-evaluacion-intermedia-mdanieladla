@@ -60,7 +60,6 @@ body {
     color: #FFF;
     position: relative;
     top: 350px;
-    border: 1px solid black;
     
 }
 
@@ -84,6 +83,20 @@ body {
         right: 30px;
     }
 
+    .link {
+        font-size: var(--font-size);
+    }
 
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 40px;
+    }
 
 }
